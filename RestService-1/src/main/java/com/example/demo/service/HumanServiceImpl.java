@@ -10,8 +10,8 @@ public class HumanServiceImpl implements HumanService{
 	@Override
 	public Human get() {
 		Human human = new Human();
-		human.setAge("44");
-		human.setName("Jhon");
+		human.setAge("33");
+		human.setName("Douglas");
 		return human;
 	}
 	
