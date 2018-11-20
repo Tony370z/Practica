@@ -3,6 +3,7 @@ package com.example.demo.domain;
 public class Human {
 	
 	private String name;
+	private String lastName;
 	private String age;
 	
 	public String getName() {
@@ -16,6 +17,13 @@ public class Human {
 	}
 	public void setAge(String age) {
 		this.age = age;
+	}
+	
+	public String getLastName() {
+		return lastName;
+	}
+	public void setLastName(String lastName) {
+		this.lastName = lastName;
 	}
 	
 	@Override
