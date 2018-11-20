@@ -14,4 +14,8 @@ public class HumanServiceImpl implements HumanService{
 //		un comentario
 	}
 	
+	public void prueba() {
+		
+	}
+	
 }
