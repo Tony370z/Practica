@@ -13,6 +13,11 @@ public class HumanServiceImpl implements HumanService{
 		human.setAge("33");
 		human.setName("Douglas");
 		return human;
+//		un comentario
+	}
+	
+	public void prueba() {
+		
 	}
 	
 }
