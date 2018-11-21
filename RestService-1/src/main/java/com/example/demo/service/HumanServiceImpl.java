@@ -12,12 +12,13 @@ public class HumanServiceImpl implements HumanService{
 		Human human = new Human();
 		human.setAge("28");
 		human.setName("Edgard");
+		human.setAddress("Carabobo, Venezuela");
 		return human;
 //		un comentario
 	}
 	
 	public void prueba() {
-		
+	// metodo de prueba	
 	}
 	
 }

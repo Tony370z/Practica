@@ -4,12 +4,19 @@ public class Human {
 	
 	private String name;
 	private String age;
+	private String address;
 	
 	public String getName() {
 		return name;
 	}
 	public void setName(String name) {
 		this.name = name;
+	}
+	public String getAddress() {
+		return address;
+	}
+	public void setAddress(String address) {
+		this.address = address;
 	}
 	public String getAge() {
 		return age;
@@ -20,7 +27,7 @@ public class Human {
 	
 	@Override
 	public String toString() {
-		return "Human [name=" + name + ", age=" + age + "]";
+		return "Human [name=" + name + ", age=" + age + ", address=" + address + "]";
 	}
 	
 }
