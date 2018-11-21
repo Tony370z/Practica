@@ -14,6 +14,11 @@ public class HumanServiceImpl implements HumanService{
 		human.setName("Tony");
 		human.setLastName("Morantes");
 		return human;
+//		un comentario
+	}
+	
+	public void prueba() {
+		
 	}
 	
 }
