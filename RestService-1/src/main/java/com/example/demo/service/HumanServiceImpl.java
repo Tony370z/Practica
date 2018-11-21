@@ -13,11 +13,8 @@ public class HumanServiceImpl implements HumanService{
 		human.setAge("28");
 		human.setName("Edgard");
 		human.setAddress("Carabobo, Venezuela");
+		human.setLastName("Velazques");
 		return human;
-//		un comentario
-	}
-	
-	public void prueba() {
 	// metodo de prueba	
 	}
 	

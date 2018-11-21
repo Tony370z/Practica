@@ -3,6 +3,7 @@ package com.example.demo.domain;
 public class Human {
 	
 	private String name;
+	private String lastName;	
 	private String age;
 	private String address;
 	
@@ -25,9 +26,16 @@ public class Human {
 		this.age = age;
 	}
 	
+	public String getLastName() {
+		return lastName;
+	}
+	public void setLastName(String lastName) {
+		this.lastName = lastName;
+	}
+	
 	@Override
 	public String toString() {
-		return "Human [name=" + name + ", age=" + age + ", address=" + address + "]";
+		return "Human [name=" + name + ", lastName=" + lastName + ", age=" + age + ", address=" + address + "]";
 	}
 	
 }
